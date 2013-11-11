@@ -2,11 +2,14 @@
 sources:
   local:
     - sublime3.yml
+    - evernote.yml  # looks like this doesn't like the TOS screen on the .dmg from Evernote
+    - skitch.yml
 
   git:
     - name: 'osx'
       repo: 'https://github.com/spencergibb/ansible-osx'
       playbooks:
+         - homebrew.yml
          #- adium.yml
          #- alfred.yml
          #- better-touch-tool.yml
