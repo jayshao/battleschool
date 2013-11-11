@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Evernote 
+      mac_pkg: pkg_type=app
+               url=https://evernote.com/download/get.php?file=EvernoteMac
+               archive_type=dmg dmg_license=yes archive_path="Evernote.app"
+
