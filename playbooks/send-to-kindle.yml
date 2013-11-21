@@ -1,0 +1,8 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Send to Kindle App
+      mac_pkg: pkg_type=pkg pkg_version=1.0.0.218
+               url=http://s3.amazonaws.com/sendtokindle/SendToKindleForMac-installer-v1.0.0.218.pkg
+      sudo: yes

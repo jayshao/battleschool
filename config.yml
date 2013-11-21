@@ -4,6 +4,9 @@ sources:
     - sublime3.yml
     - evernote.yml  # looks like this doesn't like the TOS screen on the .dmg from Evernote
     - skitch.yml
+    - calibre.yml
+    - hipchat.yml
+    - send-to-kindle.yml
 
   git:
     - name: 'osx'
@@ -12,13 +15,13 @@ sources:
          - homebrew.yml
          #- adium.yml
          #- alfred.yml
-         #- better-touch-tool.yml
+         - better-touch-tool.yml
          #- chrome-beta.yml
          - dropbox.yml
          - github.yml
          - gitx.yml
          - intellij-idea-ultimate.yml
-         #- iterm2.yml
+         - iterm2.yml
          - java7.yml
          #- libreoffice.yml
          #- sequel-pro.yml
