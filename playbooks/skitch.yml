@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Skitch 
+      mac_pkg: pkg_type=app
+               url=http://evernote.com/download/get.php?file=SkitchMac
+               archive_type=zip archive_path="Skitch.app"
+

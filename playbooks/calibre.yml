@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Calibre eBook Library
+      mac_pkg: pkg_type=app pkg_version=latest
+               url=http://status.calibre-ebook.com/dist/osx32
+               archive_type=dmg archive_path="calibre.app"
+      sudo: yes
