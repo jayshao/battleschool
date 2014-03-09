@@ -11,7 +11,7 @@ sources:
 
   git:
     - name: 'osx'
-      repo: 'https://github.com/spencergibb/ansible-osx'
+      repo: 'https://github.com/jayshao/ansible-osx'
       playbooks:
          - homebrew.yml
          #- adium.yml
