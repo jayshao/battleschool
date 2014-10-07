@@ -5,18 +5,19 @@ sources:
     - evernote.yml  # looks like this doesn't like the TOS screen on the .dmg from Evernote
     - skitch.yml
     - calibre.yml
-    - hipchat.yml
+    # hipchat.yml
     - send-to-kindle.yml
+    # scala-ide.yml
 
   git:
     - name: 'osx'
-      repo: 'https://github.com/spencergibb/ansible-osx'
+      repo: 'https://github.com/jayshao/ansible-osx'
       playbooks:
          - homebrew.yml
          #- adium.yml
          #- alfred.yml
-         - better-touch-tool.yml
-         #- chrome-beta.yml
+         # better-touch-tool.yml
+         - chrome-beta.yml
          - dropbox.yml
          - github.yml
          - gitx.yml
