@@ -1,0 +1,7 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install atom text editor 
+      homebrew_cask: name=atom state=present
+      sudo: yes
