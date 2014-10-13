@@ -1,6 +1,7 @@
 ---
 sources:
   local:
+    - atom.yml
     - sublime3.yml
     - evernote.yml  # looks like this doesn't like the TOS screen on the .dmg from Evernote
     - skitch.yml
