@@ -1,0 +1,7 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: install Simple Comic
+      homebrew_cask: name=simple-comic state=present
+      sudo: yes
